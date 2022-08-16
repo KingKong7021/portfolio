@@ -1,0 +1,157 @@
+/* STYLE USED FOR ENTIRE PAGE */
+* {
+    box-sizing: border-box;
+    padding: 200;
+    margin: 200;
+}
+
+body {
+    background-color: #9bbaba;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Header of the page and search buttons */
+.header {
+    padding: 10px 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #3b5f66;
+    color:  #bedede;;
+    flex-wrap: wrap;
+}
+
+.header h1 {
+    color: #bedede;
+    display: flex;
+    font-size: 36px;
+    justify-content: left;
+    margin: 0px
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    }
+
+.header nav ul li a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #bedede;
+    font-size: 24px;
+   
+    }
+  
+
+/*apply style to hero image*/
+.hero{
+    background-image: url("../images/heroimg.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 375px;
+    width: 100%;
+    margin-bottom: 50px;
+
+
+    background-position: center;
+      }
+
+/*profile pic in hero image*/
+
+.image0 {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: 50px;
+    top: 45px;
+    }
+
+/*Styles for About Me/My Work/MyInfo*/
+
+.flex-row {
+    display: flex;
+  }
+
+.about {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between
+  }
+.section-title{
+    padding-bottom: 20px;
+    text-align: left;
+    font-size: 24px;
+    font-family:cursive;
+    color: #024e76;
+    margin-left: 50px;  
+    width: 50%;
+  }
+
+
+/*About Me Section*/
+
+p {
+    font-size: 22px;
+}
+
+/*My Work section*/
+
+.mystuff{
+    width: 75%;
+    align-items:center;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-bottom: 10;
+  }
+
+.myworkpic {
+    max-height: 400px;
+    position: left;
+    height: 400px;
+    width: 400px;
+    padding-left: 50px;
+ }
+
+.mywork2 {
+    max-height: 200px;
+    position: center;
+    height: 200px;
+    width: 150px;
+    padding-left: 0px;
+    }
+
+.mywork3 {
+    max-height: 200px;
+    position: right;
+    height: 200px;
+    width: 150px;
+    padding-left: 20px;
+    }
+
+
+/* My Contact Info */
+
+.contacts ul li a{
+    display: flex;
+    border: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 50px;  
+    height: 400%;
+    width: 200;
+    align-items: left;
+    padding-right: 600px;
